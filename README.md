@@ -1,6 +1,6 @@
 # Tracking of an Autonomous Robot Project
 
-Tracking of an Autonomous Robot Project is a project work of [# ELEC-E8740 - Basics of sensor fusion D](https://mycourses.aalto.fi/course/search.php?search=ELEC-E8740) at Aalto University.
+Tracking of an Autonomous Robot Project is a project work of [# ELEC-E8740 - Basics of sensor fusion D](https://sisu.aalto.fi/student/courseunit/aalto-OPINKOHD-1132694639-20210801/brochure) at Aalto University.
 
 ## Description
 This project involves designing an algorithm for tracking an autonomous DiddyBorg rover robot using an array of sensors, including an Inertial Measurement Unit (IMU), infra-red detector, motor controller, and camera. The robot is programmed to follow a black line in a confined area. The IMU, consisting of an accelerometer, gyroscope, and magnetometer, is used to measure the robot's acceleration and angular rate. Although errors accrue over time, the camera system, which identifies QR coded rectangles, aids in correcting the position estimate obtained from the IMU data. All sensors are linked to a Raspberry Pi system, responsible for sensor data preprocessing, logging, and transmission.This project mainly uses the extended Kalman filter(EKF) algorithm.
